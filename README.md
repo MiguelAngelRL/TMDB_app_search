@@ -1,7 +1,16 @@
 # movies_search_app
-Web tool developed in React to search movies using The Movie Database service
+Web tool developed in React to search movies using The Movie Database service.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+In order to run this app in your machine, do the following:
+
+1. Clone this repository or download the code as a zip file and decompress it in your machine.
+2. To inspect the source code, open the new folder that should have been created (root folder) in Visual Studio Code or in the IDE of your choice.
+3. Run the command **_npm i_** from a terminal to download and install all the necessary dependencies for executing both the application and the tests.
+4. Once everything is installed, run the command **_npm start_** from a terminal, which will launch the app and will open a new window in your default browser to show it. If that window is not automatically opened, you have to navigate to the url **_http://localhost:3000_**.
+5. To use the app, simply type the search text into the input field and press the **_Search_** button. The search text can not be an empty string nor the same as the last search requested. If any result is showed, you can get more information about the movie pressing the **_More Info_** button.
+6. If you wish to execute the testing spec files that are under the folder _test\_specs_, just run the command **_npm test_** from a terminal.
 
 ## Available Scripts
 
